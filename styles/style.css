@@ -7,6 +7,16 @@ body{
 header{
     background-color: #264653;
 }
-.nav-buton{
+.primary-color{
     background: #E76F51;
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 18px;
+}
+.slogan{
+    color: #E76F51;
+}
+.gryscale{
+    filter: grayscale(100%);
 }
