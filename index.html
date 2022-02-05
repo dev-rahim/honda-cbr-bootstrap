@@ -54,7 +54,52 @@
                         amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
                         nostrud amet.
                     </p>
-                    <button class="btn text-white primary-color rounded-3">Purchase</button>
+                    <!-- modal  -->
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                        aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content text-black">
+                                <div class="modal-header">
+                                    <h5 class="modal-title " id="exampleModalToggleLabel">Subscribe Now</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with
+                                                anyone else.</div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                        aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Hide this modal and show the first with the button below.
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
+                                        data-bs-toggle="modal">Back to first</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <a class="btn primary-color text-white" data-bs-toggle="modal" href="#exampleModalToggle"
+                        role="button ">Purchase</a>
                 </div>
                 <div class="col-lg-6 col-12 py-5">
                     <img class="img-fluid" src="images/header-bike.png" alt="">
@@ -67,20 +112,22 @@
         <section class="my-5 ">
             <h1 class="text-dark text-center border-5">Fetured Bikes 2021</h1>
             <p class="fw-bolder text-center slogan">Best bike collection</p>
-            <div class="row g-5 py-5">
-                <div class="col-lg-4 col-12"><img class="gryscale img-fluid" src="images/feature-bike.jpg" alt=""></div>
-                <div class="col-lg-4 col-12"><img class="img-fluid" src="images/feature-bike.jpg" alt=""></div>
-                <div class="col-lg-4 col-12"><img class="gryscale img-fluid" src="images/feature-bike.jpg" alt=""></div>
+            <div class="row gy-4">
+                <div class="col-lg-4 col-12 mt-5"><img class="gryscale img-fluid" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-12 mt-5"><img class="img-fluid" src="images/feature-bike.jpg" alt=""></div>
+                <div class="col-lg-4 col-12 my-5"><img class="gryscale img-fluid" src="images/feature-bike.jpg" alt="">
+                </div>
             </div>
 
         </section>
     </main>
-    <footer>
+    <!-- <footer>
         <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis consequuntur placeat pariatur dolor
             aperiam facilis in ratione doloribus quisquam libero? Molestias dolore nesciunt facilis debitis dolores,
             voluptates molestiae, obcaecati tempore itaque quam vitae ipsa omnis maiores nam ratione culpa dolorem
             laboriosam blanditiis nobis odio aspernatur corporis nostrum repellendus? Quisquam, fugiat!</h1>
-    </footer>
+    </footer> -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
