@@ -1,0 +1,12 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #264653;
+}
+.nav-buton{
+    background: #E76F51;
+}
