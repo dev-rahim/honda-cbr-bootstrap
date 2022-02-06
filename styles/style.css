@@ -16,6 +16,17 @@ h1{
 .slogan{
     color: #E76F51;
 }
+.fesature-slogan::after{
+    content: '';
+    display: block;
+    background-color: #e76f51;
+    height: 2px;
+    width: 100%;
+}
 .gryscale{
     filter: grayscale(100%);
+}
+.fq-image{
+    height: 423px;
+    width: 431px;
 }
